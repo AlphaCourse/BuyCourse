@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alpha-Home</title>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,300;8..144,400;8..144,500;8..144,600;8..144,700;8..144,800;8..144,900;8..144,1000&display=swap"
+        rel="stylesheet">
+    <style>
+        .bg-glass {
+            background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border-radius: 20px;
+            border: 1px solid rgba(255, 255, 255, 0.18);
+            box-shadow: 0 0px 32px 0 rgba(0, 0, 0, 0.37);
+        }
+        .bg-glass2 {
+            background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border-radius: 20px;
+            border: 1px solid rgba(255, 255, 255, 0.18);
+            
+        }
+
+        .t-shadow {
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        li {
+            font-family: 'Roboto Flex', sans-serif;
+            font-weight: 600;
+            font-size: 18px;
+
+        }
+
+        .colorchange li a:hover {
+            color: #0093E9;
+
+        }
+
+        body {
+            background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+
+        }
+
+        .SelectW {
+            max-width: 1400px;
+        }
+
+        .bg-paleblue {
+            background: linear-gradient(135deg, rgba(0, 172, 252, 0.5), rgba(0, 172, 252, 0.3));
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border-radius: 20px;
+            border: 1px solid rgba(255, 255, 255, 0.18);
+            background-size: cover;
+        }
+    </style>
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/fbaf005be7.js" crossorigin="anonymous"></script>
+</head>
+
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-light sticky-top">
+        <div class="container-fluid text-bg-light SelectW d-flex">
+            <a class="navbar-brand" href="#"
+                style="color:rgb(59, 228, 234); font-family:Script MT,sans-serif; font-size: 20px;">ALPHA</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse colorchange" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item  " style="margin-left: 20px;">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+
+                    <li class="nav-item mr-4" style="margin-left: 20px;">
+                        <a class="nav-link" aria-current="page" href="#courses-card">Courses</a>
+                    </li>
+
+                    <li class="nav-item mr-4" style="margin-left: 20px;">
+                        <a class="nav-link " href="#FAQs">FAQs</a>
+                    </li>
+                    <li class="nav-item mr-4" style="margin-left: 20px;">
+                        <a class="nav-link" href="#pricing">Pricing</a>
+                    </li>
+                </ul>
+
+            </div>
+
+        </div>
+    </nav>
+
+
+    <section id="Home ">
+        <div class="container-fluid SelectW bg-glass text-center mt-4 p-5">
+            <h1 class="display-4 fw-bold">Alpha Course</h1>
+            <div class="col-lg-10 mx-auto">
+                <p class="lead mb-4 fw-semibold">The Alpha Course is a platform that offers a
+                    comprehensive collection
+                    of courses, providing access to a wide variety of
+                    educational offerings at an affordable cost. For many students and learners, accessing premium
+                    courses can be
+                    challenging due to their high costs. However, with the Alpha Course platform, individuals can access
+                    premium courses at a more budget-friendly price range.</p>
+                <div class="row gap-3 mb-5 justify-content-center ">
+                    <a class="text-decoration-none d-grid col-sm-3 col-md-5  text-center"
+                        href="https://www.facebook.com/profile.php?id=61551006352238" target="_blank"><button
+                            class="col-lg btn btn-primary px-4 btn-lg">Visit Page</button></a>
+                    <a class="text-decoration-none d-grid col-sm-3 col-md-5 text-center text-white" href=""> <button
+                            class="col-lg btn btn-light px-4 btn-lg">Up coming</button></a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- why buy from me section starts from here -->
+
+    <section style="margin-top: 100px;">
+        <div class="container-fluid SelectW text-center p-5">
+            <h2 class="display-4 fw-bold">Why buy from us??</h2>
+            <div class="d-flex mt-4 mb-4">
+                <ul class="" style="list-style: none; text-align: justify;">
+                    <li style="margin: 20px; font-weight: 700;" class="lead"><i
+                            class="fa-solid fa-circle-check "></i><span class="m-3 ">You can purchase courses at a
+                            significantly reduced cost.</span></li>
+                    <li style="margin: 20px; font-weight: 700;" class="lead"><i
+                            class="fa-solid fa-circle-check  "></i><span class="m-3 ">You won't need to acquire dollars
+                            for payment.</span></li>
+                    <li style="margin: 20px; font-weight: 700;" class="lead"><i
+                            class="fa-solid fa-circle-check "></i><span class="m-3 ">Immediate access to Google Drive
+                            download links.</span></li>
+                    <li style="margin: 20px; font-weight: 700;" class="lead"><i
+                            class="fa-solid fa-circle-check "></i><span class="m-3 ">Access to authentic and valuable
+                            course content.</span></li>
+                    <li style="margin: 20px; font-weight: 700;" class="lead"><i
+                            class="fa-solid fa-circle-check  "></i><span class="m-3 ">No additional complications after
+                            downloading.</span></li>
+                    <ul>
+                        </divm </div>
+
+    </section>
+
+
+
+    <!-- available course section start from here -->
+
+
+    <section id="courses-card" style="margin-top: 70px;">
+        <div class="container-fluid SelectW text-center bg-glass p-5">
+            <h1 class="display-4 fw-bold">Available courses</h1>
+            <hr>
+            <div class="row gap-5">
+                <div class="card col-md-3 col-sm-4 mx-auto"
+                    style="width: 18rem; margin-top: 50px; box-shadow: 0px 0px 32px grey;">
+                    <img src="images/web-dev-3.0.jpg" class="card-img-top pt-2" alt="Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Web Development Course</h5>
+                        <p class="card-text">This is a highly rated latest complete web developer course </p>
+                        <a href="https://www.udemy.com/course/the-complete-web-developer-course-2/" target="_blank"
+                            class="btn btn-primary">More
+                            details</a>
+                    </div>
+                </div>
+
+                <div class="card col-md-3 col-sm-4 mx-auto"
+                    style="width: 18rem; margin-top: 50px; box-shadow: 0px 0px 32px grey;">
+                    <img src="images/complete-python-course.jpg" class="card-img-top pt-2" alt="Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Complete Python course</h5>
+                        <p class="card-text">Learn Python like a Professional Start from the basics and go all the way
+                            to creating your own applications and games</p>
+                        <a href="https://www.udemy.com/course/complete-python-bootcamp/" class="btn btn-primary"
+                            target="_blank">More
+                            details</a>
+                    </div>
+                </div>
+
+                <div class="card col-md-3 col-sm-4 mx-auto"
+                    style="width: 18rem; margin-top: 50px; box-shadow: 0px 0px 32px grey;">
+                    <img src="images/cpp-beginner-to-beyond.jpg" class="card-img-top pt-2" alt="Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Complete C++ course</h5>
+                        <p class="card-text">Obtain Modern C++ Object-Oriented Programming (OOP) and STL skills. C++14
+                            and C++17 covered. C++20 info see below.</p>
+                        <a href="https://www.udemy.com/course/beginning-c-plus-plus-programming/" target="_blank"
+                            class="btn btn-primary">More
+                            details</a>
+                    </div>
+                </div>
+
+                <div class="card col-md-3 col-sm-4 mx-auto"
+                    style="width: 18rem; margin-top: 50px; box-shadow: 0px 0px 32px grey;">
+                    <img src="images/fiverr-sell-like-top1.jpg" class="card-img-top pt-2" alt="Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Learn all about Fiverr</h5>
+                        <p class="card-text">Fiverr freelancing for beginners. How top Fiverr sellers boost freelancing
+                            earnings by 1000% from each sale</p>
+                        <a href="https://www.udemy.com/course/entrepreneurs-guide-to-fiverr-success/" target="_blank"
+                            class="btn btn-primary">More
+                            details</a>
+                    </div>
+                </div>
+
+                <div class="card col-sm-5 mx-auto"
+                    style="width: 18rem; margin-top: 50px; box-shadow: 0px 0px 32px grey;">
+                    <img src="images/java-leetcode-exercises.jpg" class="card-img-top pt-2" alt="Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Competitive programming course</h5>
+                        <p class="card-text">DSA for the Cracking the Coding Interview. Animated Examples for Faster
+                            Learning and Deeper Understanding.</p>
+                        <a href="https://www.udemy.com/course/data-structures-and-algorithms-java/" target="_blank"
+                            class="btn btn-primary">More
+                            details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+    <!-- FAQs section start from here -->
+
+
+    <section id="FAQs">
+        <div class="container-fluid SelectW p-2">
+            <h1 class="display-4 fw-bold text-center" style="margin-top: 80px; margin-bottom: 80px;">FAQs</h1>
+            <div id="accordion" class="bg-glass p-5"
+                style="background-image: url(https://source.unsplash.com/720x600/?programming,python);background-size: cover;">
+                <h3 class="lead fw-600 fs-3 text-sm text-white t-shadow bg-paleblue"
+                    style="font-family:'Roboto Flex', sans-serif; ">Can you get the courses for free?</h3>
+                <div class="bg-glass2">
+                    <p class="lead t-shadow fw-500 text-white text-sm" style="text-align: left;">
+                        The straightforward response is in the negative; it is not possible to access this course
+                        entirely free of charge.
+                        However, should you decide to acquire multiple courses, we may consider lowering the default
+                        price range.
+                    </p>
+                </div>
+                <h3 class="lead fw-600 fs-3 text-white t-shadow bg-paleblue"
+                    style="font-family:'Roboto Flex', sans-serif; "> Do you have to give the money first to get the
+                    course?</h3>
+                <div class="bg-glass2">
+                    <p class="lead t-shadow fw-500 text-white">
+                        No, you don't have to handover the money first. Initially, you will receive 50% of the course
+                        content, and
+                        upon completing the payment, the remaining 50% will be made available to you.
+                    </p>
+                </div>
+
+                <h3 class="lead fw-600 fs-3 text-white t-shadow bg-paleblue"
+                    style="font-family:'Roboto Flex', sans-serif; "> Can you buy any Udemy courses you want??</h3>
+                <div class="bg-glass2">
+                    <p class="lead t-shadow fw-500 text-white">
+                        No, you can't. Our Page offers various course collection but not all the udemy paid courses. But
+                        we are collecting courses day by day.
+                    </p>
+                </div>
+
+                <h3 class="lead fw-600 fs-3 text-white t-shadow bg-paleblue"
+                    style="font-family:'Roboto Flex', sans-serif; "> How you beleive this is not a scam site? </h3>
+                <div class="bg-glass2">
+                    <p class="lead t-shadow fw-500 text-white">
+                        I am gathering these courses to assist you and run a business. If I engage in any fraudulent activities, my business
+                        won't thrive. So, rest assured, this is not a scam site.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+    <!-- pricing section start from here -->
+    <section id="pricing">
+        <div class="container-fluid SelectW p-2">
+            <h1 class="display-4 fw-bold text-center" style="margin-top: 80px; margin-bottom: 80px;">Pricing</h1>
+       
+
+        <table class="table table-secondary">
+            <thead>
+                <tr>
+                    <th scope="col"></th>
+                    <th scope="col">Course Name</th>
+                    <th scope="col">Size</th>
+                    <th scope="col">Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>The Complete Web Developer Course 3.0</td>
+                    <td>9.46 GB</td>
+                    <td>2000 BDT</td>
+                    
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Beginning C++ Programming - From Beginner to Beyond</td>
+                    <td>11.6 GB</td>
+                    <td>2000 BDT</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>The Complete Python Bootcamp From Zero to Hero in Python</td>
+                    <td>6.94 GB</td>
+                    <td>2000 BDT</td>
+                </tr>
+
+                <tr>
+                    <th scope="row">4</th>
+                    <td>Java Data Structures & Algorithms + LEETCODE Exercises</td>
+                    <td>1.33 GB</td>
+                    <td>2000 BDT</td>
+                </tr>
+
+                <tr>
+                    <th scope="row">5</th>
+                    <td>Fiverr Freelancing 2023 Sell Like The Top 1%</td>
+                    <td>2.53 GB</td>
+                    <td>2000 BDT</td>
+                </tr>
+                
+            </tbody>
+        </table>
+        </div>
+
+    </section>
+
+
+<footer style="height: 80px; width:100%;margin-top: 100px;" class="bg-dark">
+
+<div class="container-fluid SelectW p-2 d-flex gap-5" style="height:100%; justify-content: cetner; align-items: center;">
+    <div class=" align-items-center my-auto w-50 ">
+        <p class="text-secondary" style="height: 20px;">&copy; Alpha coures 2023</p>
+    </div>
+    <div class="d-flex w-50 " style="flex-direction: row-reverse;" >
+        <a class="btn btn-outline-primary text-right" href="https://www.facebook.com/profile.php?id=61551006352238"><i class="fa-brands fa-square-facebook"></i></a>
+    </div>
+
+</div>
+
+</footer>
+
+    <script>
+        $(function () {
+            $("#accordion").accordion();
+        });
+    </script>
+    </head>
+</body>
+
+</html>
